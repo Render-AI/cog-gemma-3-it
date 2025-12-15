@@ -11,9 +11,9 @@ from transformers import AutoProcessor, Gemma3ForConditionalGeneration
 
 MODEL_CACHE = "checkpoints"
 # Choose a model size
-MODEL_URL = "https://weights.replicate.delivery/default/google/gemma-3-4b-it/model.tar"
+# MODEL_URL = "https://weights.replicate.delivery/default/google/gemma-3-4b-it/model.tar"
 # MODEL_URL = "https://weights.replicate.delivery/default/google/gemma-3-12b-it/model.tar"
-# MODEL_URL = "https://weights.replicate.delivery/default/google/gemma-3-27b-it/model.tar"
+MODEL_URL = "https://weights.replicate.delivery/default/google/gemma-3-27b-it/model.tar"
 
 def download_weights(url, dest):
     start = time.time()
